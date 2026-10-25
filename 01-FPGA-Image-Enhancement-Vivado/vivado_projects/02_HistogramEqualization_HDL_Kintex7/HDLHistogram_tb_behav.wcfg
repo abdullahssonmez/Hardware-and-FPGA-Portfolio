@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="HDLHistogram_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="HDLHistogram_pkg" />
+            <top_module name="HDLHistogram_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,996 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,001 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="275"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="197" />
+   <wvobject fp_name="/HDLHistogram_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/clk_enable" type="logic">
+      <obj_property name="ElementShortName">clk_enable</obj_property>
+      <obj_property name="ObjectShortName">clk_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/readDone_done" type="logic">
+      <obj_property name="ElementShortName">readDone_done</obj_property>
+      <obj_property name="ObjectShortName">readDone_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rdEnb" type="logic">
+      <obj_property name="ElementShortName">rdEnb</obj_property>
+      <obj_property name="ObjectShortName">rdEnb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/readDone_done_enb" type="logic">
+      <obj_property name="ElementShortName">readDone_done_enb</obj_property>
+      <obj_property name="ObjectShortName">readDone_done_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/accum_hist_addr" type="array">
+      <obj_property name="ElementShortName">accum_hist_addr[19:0]</obj_property>
+      <obj_property name="ObjectShortName">accum_hist_addr[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/readDone_lastAddr" type="logic">
+      <obj_property name="ElementShortName">readDone_lastAddr</obj_property>
+      <obj_property name="ObjectShortName">readDone_lastAddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/check3_done" type="logic">
+      <obj_property name="ElementShortName">check3_done</obj_property>
+      <obj_property name="ObjectShortName">check3_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/validOut_done" type="logic">
+      <obj_property name="ElementShortName">validOut_done</obj_property>
+      <obj_property name="ObjectShortName">validOut_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/validOut_done_enb" type="logic">
+      <obj_property name="ElementShortName">validOut_done_enb</obj_property>
+      <obj_property name="ObjectShortName">validOut_done_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/validOut_lastAddr" type="logic">
+      <obj_property name="ElementShortName">validOut_lastAddr</obj_property>
+      <obj_property name="ObjectShortName">validOut_lastAddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/check2_done" type="logic">
+      <obj_property name="ElementShortName">check2_done</obj_property>
+      <obj_property name="ObjectShortName">check2_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/accum_hist_done" type="logic">
+      <obj_property name="ElementShortName">accum_hist_done</obj_property>
+      <obj_property name="ObjectShortName">accum_hist_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/accum_hist_done_enb" type="logic">
+      <obj_property name="ElementShortName">accum_hist_done_enb</obj_property>
+      <obj_property name="ObjectShortName">accum_hist_done_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/accum_hist_active" type="logic">
+      <obj_property name="ElementShortName">accum_hist_active</obj_property>
+      <obj_property name="ObjectShortName">accum_hist_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out2_addr" type="array">
+      <obj_property name="ElementShortName">Video_partition_out2_addr[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out2_addr[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_19_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_19_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_19_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/tb_enb_delay" type="logic">
+      <obj_property name="ElementShortName">tb_enb_delay</obj_property>
+      <obj_property name="ObjectShortName">tb_enb_delay</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/tb_enb" type="logic">
+      <obj_property name="ElementShortName">tb_enb</obj_property>
+      <obj_property name="ObjectShortName">tb_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl4_valid" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl4_valid[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl4_valid[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl4_valid" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl4_valid</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl4_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl4_valid" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl4_valid[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl4_valid[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl4_valid" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl4_valid</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl4_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl4_valid_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl4_valid_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl4_valid_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl4_valid" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl4_valid</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl4_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_18_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_18_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_18_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl4_vEnd" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl4_vEnd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl4_vEnd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl4_vEnd" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl4_vEnd</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl4_vEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl4_vEnd" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl4_vEnd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl4_vEnd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl4_vEnd" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl4_vEnd</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl4_vEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl4_vEnd_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl4_vEnd_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl4_vEnd_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl4_vEnd" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl4_vEnd</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl4_vEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_17_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_17_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_17_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl4_vStart" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl4_vStart[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl4_vStart[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl4_vStart" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl4_vStart</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl4_vStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl4_vStart" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl4_vStart[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl4_vStart[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl4_vStart" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl4_vStart</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl4_vStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl4_vStart_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl4_vStart_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl4_vStart_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl4_vStart" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl4_vStart</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl4_vStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_16_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_16_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_16_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl4_hEnd" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl4_hEnd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl4_hEnd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl4_hEnd" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl4_hEnd</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl4_hEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl4_hEnd" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl4_hEnd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl4_hEnd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl4_hEnd" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl4_hEnd</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl4_hEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl4_hEnd_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl4_hEnd_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl4_hEnd_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl4_hEnd" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl4_hEnd</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl4_hEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_15_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_15_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_15_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl4_hStart" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl4_hStart[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl4_hStart[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl4_hStart" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl4_hStart</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl4_hStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl4_hStart" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl4_hStart[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl4_hStart[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl4_hStart" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl4_hStart</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl4_hStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl4_hStart_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl4_hStart_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl4_hStart_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl4_hStart" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl4_hStart</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl4_hStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_14_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_14_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_14_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl3_valid" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl3_valid[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl3_valid[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl3_valid" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl3_valid</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl3_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl3_valid" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl3_valid[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl3_valid[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl3_valid" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl3_valid</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl3_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl3_valid_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl3_valid_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl3_valid_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl3_valid" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl3_valid</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl3_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_13_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_13_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_13_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl3_vEnd" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl3_vEnd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl3_vEnd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl3_vEnd" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl3_vEnd</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl3_vEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl3_vEnd" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl3_vEnd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl3_vEnd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl3_vEnd" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl3_vEnd</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl3_vEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl3_vEnd_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl3_vEnd_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl3_vEnd_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl3_vEnd" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl3_vEnd</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl3_vEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_12_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_12_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_12_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl3_vStart" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl3_vStart[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl3_vStart[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl3_vStart" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl3_vStart</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl3_vStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl3_vStart" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl3_vStart[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl3_vStart[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl3_vStart" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl3_vStart</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl3_vStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl3_vStart_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl3_vStart_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl3_vStart_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl3_vStart" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl3_vStart</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl3_vStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_11_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_11_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_11_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl3_hEnd" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl3_hEnd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl3_hEnd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl3_hEnd" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl3_hEnd</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl3_hEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl3_hEnd" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl3_hEnd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl3_hEnd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl3_hEnd" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl3_hEnd</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl3_hEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl3_hEnd_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl3_hEnd_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl3_hEnd_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl3_hEnd" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl3_hEnd</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl3_hEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_10_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_10_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_10_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl3_hStart" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl3_hStart[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl3_hStart[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl3_hStart" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl3_hStart</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl3_hStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl3_hStart" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl3_hStart[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl3_hStart[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl3_hStart" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl3_hStart</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl3_hStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl3_hStart_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl3_hStart_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl3_hStart_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl3_hStart" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl3_hStart</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl3_hStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_9_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_9_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_9_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl2_valid" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl2_valid[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl2_valid[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl2_valid" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl2_valid</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl2_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl2_valid" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl2_valid[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl2_valid[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl2_valid" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl2_valid</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl2_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl2_valid_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl2_valid_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl2_valid_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl2_valid" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl2_valid</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl2_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_8_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_8_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_8_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl2_vEnd" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl2_vEnd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl2_vEnd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl2_vEnd" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl2_vEnd</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl2_vEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl2_vEnd" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl2_vEnd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl2_vEnd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl2_vEnd" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl2_vEnd</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl2_vEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl2_vEnd_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl2_vEnd_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl2_vEnd_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl2_vEnd" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl2_vEnd</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl2_vEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_7_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_7_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_7_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl2_vStart" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl2_vStart[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl2_vStart[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl2_vStart" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl2_vStart</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl2_vStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl2_vStart" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl2_vStart[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl2_vStart[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl2_vStart" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl2_vStart</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl2_vStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl2_vStart_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl2_vStart_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl2_vStart_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl2_vStart" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl2_vStart</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl2_vStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_6_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_6_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_6_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl2_hEnd" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl2_hEnd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl2_hEnd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl2_hEnd" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl2_hEnd</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl2_hEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl2_hEnd" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl2_hEnd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl2_hEnd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl2_hEnd" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl2_hEnd</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl2_hEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl2_hEnd_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl2_hEnd_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl2_hEnd_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl2_hEnd" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl2_hEnd</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl2_hEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_5_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_5_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_5_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl2_hStart" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl2_hStart[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl2_hStart[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl2_hStart" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl2_hStart</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl2_hStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl2_hStart" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl2_hStart[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl2_hStart[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl2_hStart" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl2_hStart</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl2_hStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl2_hStart_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl2_hStart_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl2_hStart_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl2_hStart" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl2_hStart</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl2_hStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_4_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_4_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_4_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl1_valid" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl1_valid[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl1_valid[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl1_valid" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl1_valid</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl1_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl1_valid" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl1_valid[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl1_valid[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl1_valid" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl1_valid</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl1_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl1_valid_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl1_valid_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl1_valid_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl1_valid" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl1_valid</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl1_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_3_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_3_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_3_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl1_vEnd" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl1_vEnd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl1_vEnd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl1_vEnd" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl1_vEnd</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl1_vEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl1_vEnd" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl1_vEnd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl1_vEnd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl1_vEnd" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl1_vEnd</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl1_vEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl1_vEnd_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl1_vEnd_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl1_vEnd_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl1_vEnd" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl1_vEnd</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl1_vEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_2_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_2_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_2_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl1_vStart" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl1_vStart[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl1_vStart[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl1_vStart" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl1_vStart</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl1_vStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl1_vStart" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl1_vStart[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl1_vStart[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl1_vStart" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl1_vStart</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl1_vStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl1_vStart_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl1_vStart_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl1_vStart_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl1_vStart" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl1_vStart</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl1_vStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_1_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_1_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_1_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl1_hEnd" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl1_hEnd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl1_hEnd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl1_hEnd" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl1_hEnd</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl1_hEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl1_hEnd" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl1_hEnd[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl1_hEnd[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl1_hEnd" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl1_hEnd</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl1_hEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl1_hEnd_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl1_hEnd_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl1_hEnd_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl1_hEnd" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl1_hEnd</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl1_hEnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out3_bus_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out3_bus_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out3_bus_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_ctrl_pctrl1_hStart" type="array">
+      <obj_property name="ElementShortName">fp_ctrl_pctrl1_hStart[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_ctrl_pctrl1_hStart[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_ctrl_pctrl1_hStart" type="logic">
+      <obj_property name="ElementShortName">rawData_ctrl_pctrl1_hStart</obj_property>
+      <obj_property name="ObjectShortName">rawData_ctrl_pctrl1_hStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_ctrl_pctrl1_hStart" type="array">
+      <obj_property name="ElementShortName">status_ctrl_pctrl1_hStart[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_ctrl_pctrl1_hStart[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_ctrl_pctrl1_hStart" type="logic">
+      <obj_property name="ElementShortName">holdData_ctrl_pctrl1_hStart</obj_property>
+      <obj_property name="ObjectShortName">holdData_ctrl_pctrl1_hStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl1_hStart_offset" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl1_hStart_offset</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl1_hStart_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ctrl_pctrl1_hStart" type="logic">
+      <obj_property name="ElementShortName">ctrl_pctrl1_hStart</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pctrl1_hStart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out2_active" type="logic">
+      <obj_property name="ElementShortName">Video_partition_out2_active</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out2_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out2_enb" type="logic">
+      <obj_property name="ElementShortName">Video_partition_out2_enb</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out2_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/Video_partition_out2_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Video_partition_out2_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">Video_partition_out2_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_pixel" type="array">
+      <obj_property name="ElementShortName">fp_pixel[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_pixel[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/rawData_pixel" type="array">
+      <obj_property name="ElementShortName">rawData_pixel[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">rawData_pixel[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_pixel" type="array">
+      <obj_property name="ElementShortName">status_pixel[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_pixel[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/holdData_pixel" type="array">
+      <obj_property name="ElementShortName">holdData_pixel[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">holdData_pixel[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/pixel_offset" type="array">
+      <obj_property name="ElementShortName">pixel_offset[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel_offset[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/pixel" type="array">
+      <obj_property name="ElementShortName">pixel[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">pixel[0:3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/snkDone" type="logic">
+      <obj_property name="ElementShortName">snkDone</obj_property>
+      <obj_property name="ObjectShortName">snkDone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/snkDonen" type="logic">
+      <obj_property name="ElementShortName">snkDonen</obj_property>
+      <obj_property name="ObjectShortName">snkDonen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/ce_out" type="logic">
+      <obj_property name="ElementShortName">ce_out</obj_property>
+      <obj_property name="ObjectShortName">ce_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/accum_hist" type="array">
+      <obj_property name="ElementShortName">accum_hist[16:0]</obj_property>
+      <obj_property name="ObjectShortName">accum_hist[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/validOut" type="logic">
+      <obj_property name="ElementShortName">validOut</obj_property>
+      <obj_property name="ObjectShortName">validOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/readDone" type="logic">
+      <obj_property name="ElementShortName">readDone</obj_property>
+      <obj_property name="ObjectShortName">readDone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/accum_hist_enb" type="logic">
+      <obj_property name="ElementShortName">accum_hist_enb</obj_property>
+      <obj_property name="ObjectShortName">accum_hist_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/accum_hist_lastAddr" type="logic">
+      <obj_property name="ElementShortName">accum_hist_lastAddr</obj_property>
+      <obj_property name="ObjectShortName">accum_hist_lastAddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/check1_done" type="logic">
+      <obj_property name="ElementShortName">check1_done</obj_property>
+      <obj_property name="ObjectShortName">check1_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/accum_hist_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">accum_hist_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">accum_hist_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_accum_hist_expected" type="array">
+      <obj_property name="ElementShortName">fp_accum_hist_expected[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_accum_hist_expected[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/accum_hist_expected" type="array">
+      <obj_property name="ElementShortName">accum_hist_expected[16:0]</obj_property>
+      <obj_property name="ObjectShortName">accum_hist_expected[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_accum_hist_expected" type="array">
+      <obj_property name="ElementShortName">status_accum_hist_expected[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_accum_hist_expected[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/accum_hist_ref" type="array">
+      <obj_property name="ElementShortName">accum_hist_ref[16:0]</obj_property>
+      <obj_property name="ObjectShortName">accum_hist_ref[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/accum_hist_testFailure" type="logic">
+      <obj_property name="ElementShortName">accum_hist_testFailure</obj_property>
+      <obj_property name="ObjectShortName">accum_hist_testFailure</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/validOut_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">validOut_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">validOut_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_validOut_expected" type="array">
+      <obj_property name="ElementShortName">fp_validOut_expected[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_validOut_expected[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/validOut_expected" type="logic">
+      <obj_property name="ElementShortName">validOut_expected</obj_property>
+      <obj_property name="ObjectShortName">validOut_expected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_validOut_expected" type="array">
+      <obj_property name="ElementShortName">status_validOut_expected[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_validOut_expected[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/validOut_ref" type="logic">
+      <obj_property name="ElementShortName">validOut_ref</obj_property>
+      <obj_property name="ObjectShortName">validOut_ref</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/validOut_testFailure" type="logic">
+      <obj_property name="ElementShortName">validOut_testFailure</obj_property>
+      <obj_property name="ObjectShortName">validOut_testFailure</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/readDone_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">readDone_addr_delay_1[19:0]</obj_property>
+      <obj_property name="ObjectShortName">readDone_addr_delay_1[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/fp_readDone_expected" type="array">
+      <obj_property name="ElementShortName">fp_readDone_expected[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fp_readDone_expected[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/readDone_expected" type="logic">
+      <obj_property name="ElementShortName">readDone_expected</obj_property>
+      <obj_property name="ObjectShortName">readDone_expected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/status_readDone_expected" type="array">
+      <obj_property name="ElementShortName">status_readDone_expected[31:0]</obj_property>
+      <obj_property name="ObjectShortName">status_readDone_expected[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/readDone_ref" type="logic">
+      <obj_property name="ElementShortName">readDone_ref</obj_property>
+      <obj_property name="ObjectShortName">readDone_ref</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/readDone_testFailure" type="logic">
+      <obj_property name="ElementShortName">readDone_testFailure</obj_property>
+      <obj_property name="ObjectShortName">readDone_testFailure</obj_property>
+   </wvobject>
+   <wvobject fp_name="/HDLHistogram_tb/testFailure" type="logic">
+      <obj_property name="ElementShortName">testFailure</obj_property>
+      <obj_property name="ObjectShortName">testFailure</obj_property>
+   </wvobject>
+</wave_config>

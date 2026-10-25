@@ -1,0 +1,63 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/CLAHEHDLAlgorithm_pkg.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/CLAHEHDLAlgorithm.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/DualPortRAM_generic.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/For_Each_Subsystem.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/For_Each_Subsystem1.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/For_Each_Subsystem2.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/For_Each_Subsystem3.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/HDL_FIFO.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/HistController.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/HistController_block.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/HistCore.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/HistCore_block.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/Histogram.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/Histogram_block.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/Lookup_Table.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/MATLAB_Function2.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/MATLAB_Function2_block.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/Pixel_Control_Bus_Creator.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/Pixel_Control_Bus_Creator1.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/Pixel_Control_Bus_Creator_block.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/Pixel_Control_Bus_Creator_block1.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/Pixel_Control_Bus_Creator_block2.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/Pixel_Control_Bus_Creator_block3.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/Pixel_Control_Bus_Creator_block4.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/ROI_Selector1.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/SimpleDualPortRAM_generic.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/Subsystem1.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/Subsystem1_block.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/Subsystem1_block1.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/bilinearInterpolation.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/busCreator.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/cdf.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/cdfRefresh.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/cdfRefresh_block.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/cdf_block.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/clipLimitCalc.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/distribute.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/distribute_block.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/equation.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/histPipe1.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/histPipe2.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/histResetBuffer.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/histoEqPipeline.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/histoExcess.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/histoExcess_block.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/outputStage.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/paramCalc.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/pixelBusGenerator.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/pixelBusGenerator_block.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/pixelBusGenerator_block1.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/redistribute.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/redistribute_block.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/tileGeneration.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/tiling.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/CLAHEHDLExample/hdlsrc/CLAHEExample/CLAHEHDLAlgorithm_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

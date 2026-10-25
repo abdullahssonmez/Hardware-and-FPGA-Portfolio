@@ -1,0 +1,14 @@
+Board Name,Designator,Part Number,Category,Package / Tech,Technical Function in Induction Heating System
+Frequency Board (MHS-PCB18-R1),U3,TL084,Quad Op-Amp,JFET-Input DIP-14,"High slew-rate analog signal conditioning, phase error amplification, and active filtering"
+Frequency Board (MHS-PCB18-R1),U18,CD4081B (4081),Quad 2-Input AND Gate,CMOS DIP-14,Hardware PWM enable/interlock gating and fault shutdown logic
+Frequency Board (MHS-PCB18-R1),U7,CD40106B (40106),Hex Schmitt-Trigger Inverter,CMOS DIP-14,"Zero-crossing feedback pulse shaping, hysteresis noise rejection, and RC dead-time generation"
+Frequency Board (MHS-PCB18-R1),U4,CD4093B (4093),Quad 2-Input NAND Schmitt Trigger,CMOS DIP-14,Noise-immune gated pulse logic and protection latch conditioning
+Display & Control Board (Ekran Kartı),U16,LM324,Quad Op-Amp,Bipolar DIP-14,Current transformer (CT) and voltage sensor scaling/buffering for metering
+Display & Control Board (Ekran Kartı),U6,CA3140,BiMOS Op-Amp,MOSFET-Input DIP-8,Ultra-high input impedance (1.5 TOhm) analog setpoint buffer and integrator
+Display & Control Board (Ekran Kartı),U1,TL084,Quad Op-Amp,JFET-Input DIP-14,Closed-loop current/power regulation and fast analog feedback conditioning
+Display & Control Board (Ekran Kartı),U23,TL084,Quad Op-Amp,JFET-Input DIP-14,Secondary active filter and analog instrumentation amplifier stage
+Display & Control Board (Ekran Kartı),U5,LM393,Dual Differential Comparator,Open-Collector DIP-8,"Fast hardware comparator for Over-Current, Over-Voltage, Water-Flow, and Thermal trip limits"
+Display & Control Board (Ekran Kartı),U17,CD40106B (40106),Hex Schmitt-Trigger Inverter,CMOS DIP-14,"Front-panel switch debouncing, alarm LED logic inversion, and digital signal conditioning"
+Display & Control Board (Ekran Kartı),U2,LM566,Voltage-Controlled Oscillator (VCO),Analog VCO DIP-8,Converts analog control voltage into frequency-modulated drive signal for resonant tank sweep
+IGBT Trigger Board (MHS-PCB16),Hybrid IC,VLA567-11R,Dual Hybrid IGBT Gate Driver,Isahaya/Powerex SIP Hybrid,Opto-isolated bipolar (+15V/-8V) high-current IGBT gate drive with Vce(sat) short-circuit protection
+Inverter Power Stage,IGBT Brick,2MBI600 Series,Dual Half-Bridge IGBT Module,600A High-Power Module,Main high-frequency (27.72 kHz) resonant inverter switching stage mounted on water-cooled busbars

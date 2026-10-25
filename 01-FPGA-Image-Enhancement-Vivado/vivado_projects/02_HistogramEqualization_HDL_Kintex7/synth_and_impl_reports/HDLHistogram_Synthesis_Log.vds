@@ -1,0 +1,438 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun May 25 16:04:10 2025
+# Process ID         : 59096
+# Current directory  : C:/Abdullah/Research Project/Vivado/HistogramEqualizationHDLExample/project_1/project_1.runs/synth_1
+# Command line       : vivado.exe -log HDLHistogram_tb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source HDLHistogram_tb.tcl
+# Log file           : C:/Abdullah/Research Project/Vivado/HistogramEqualizationHDLExample/project_1/project_1.runs/synth_1/HDLHistogram_tb.vds
+# Journal file       : C:/Abdullah/Research Project/Vivado/HistogramEqualizationHDLExample/project_1/project_1.runs/synth_1\vivado.jou
+# Running On         : Abdullah
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 7 7435HS                             
+# CPU Frequency      : 3094 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16989 MB
+# Swap memory        : 6174 MB
+# Total Virtual      : 23163 MB
+# Available Virtual  : 7503 MB
+#-----------------------------------------------------------
+source HDLHistogram_tb.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental {C:/Abdullah/Research Project/Vivado/HistogramEqualizationHDLExample/project_1/project_1.srcs/utils_1/imports/synth_1/HDLHistogram_tb.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Abdullah/Research Project/Vivado/HistogramEqualizationHDLExample/project_1/project_1.srcs/utils_1/imports/synth_1/HDLHistogram_tb.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top HDLHistogram_tb -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 49304
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 850.129 ; gain = 474.496
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'HDLHistogram_tb' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:30]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:278]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:279]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:320]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:321]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:362]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:363]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:404]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:405]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:446]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:447]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:488]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:489]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:530]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:531]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:572]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:573]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:614]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:615]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:656]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:657]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:698]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:699]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:740]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:741]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:782]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:783]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:824]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:825]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:866]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:867]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:908]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:909]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:950]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:951]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:992]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:993]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1034]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1035]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1076]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1077]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1143]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1144]
+WARNING: [Synth 8-6896] event control except as first statement of always block inside initial block, initial block items will be ignored [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1209]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1306]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1307]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1340]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1341]
+WARNING: [Synth 8-11581] system function call 'fopen' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1374]
+WARNING: [Synth 8-11581] system function call 'rewind' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1375]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:288]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl4_valid' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:303]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:330]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl4_vEnd' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:345]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:372]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl4_vStart' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:387]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:414]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl4_hEnd' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:429]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:456]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl4_hStart' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:471]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:498]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl3_valid' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:513]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:540]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl3_vEnd' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:555]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:582]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl3_vStart' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:597]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:624]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl3_hEnd' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:639]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:666]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl3_hStart' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:681]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:708]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl2_valid' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:723]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:750]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl2_vEnd' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:765]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:792]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl2_vStart' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:807]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:834]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl2_hEnd' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:849]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:876]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl2_hStart' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:891]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:918]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl1_valid' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:933]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:960]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl1_vEnd' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:975]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1002]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl1_vStart' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1017]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1044]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl1_hEnd' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1059]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1086]
+WARNING: [Synth 8-567] referenced signal 'holdData_ctrl_pctrl1_hStart' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1101]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1153]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1154]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1155]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1156]
+WARNING: [Synth 8-567] referenced signal 'holdData_pixel' should be on the sensitivity list [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1171]
+WARNING: [Synth 8-11581] system task call 'stop' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1225]
+WARNING: [Synth 8-85] always block has no event control specified [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1214]
+INFO: [Synth 8-6157] synthesizing module 'HDLHistogram' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram.sv:45]
+INFO: [Synth 8-6157] synthesizing module 'histComp1' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/histComp1.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'Histogram' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/Histogram.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'HistController' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistController.sv:26]
+INFO: [Synth 8-6155] done synthesizing module 'HistController' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistController.sv:26]
+INFO: [Synth 8-6157] synthesizing module 'HistCore' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistCore.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'DualPortRAM_generic' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/DualPortRAM_generic.sv:22]
+	Parameter AddrWidth bound to: 32'b00000000000000000000000000001000 
+	Parameter DataWidth bound to: 32'b00000000000000000000000000010000 
+INFO: [Synth 8-6155] done synthesizing module 'DualPortRAM_generic' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/DualPortRAM_generic.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'HistCore' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistCore.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'Histogram' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/Histogram.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'hist_accum' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/hist_accum.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'hist_accum' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/hist_accum.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'histComp1' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/histComp1.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'histComp2' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/histComp2.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'Histogram_block' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/Histogram_block.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'HistController_block' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistController_block.sv:26]
+INFO: [Synth 8-6155] done synthesizing module 'HistController_block' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistController_block.sv:26]
+INFO: [Synth 8-6157] synthesizing module 'HistCore_block' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistCore_block.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'HistCore_block' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistCore_block.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'Histogram_block' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/Histogram_block.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'hist_accum_block' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/hist_accum_block.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'hist_accum_block' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/hist_accum_block.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'histComp2' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/histComp2.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'histComp3' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/histComp3.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'Histogram_block1' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/Histogram_block1.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'HistController_block1' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistController_block1.sv:26]
+INFO: [Synth 8-6155] done synthesizing module 'HistController_block1' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistController_block1.sv:26]
+INFO: [Synth 8-6157] synthesizing module 'HistCore_block1' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistCore_block1.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'HistCore_block1' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistCore_block1.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'Histogram_block1' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/Histogram_block1.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'hist_accum_block1' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/hist_accum_block1.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'hist_accum_block1' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/hist_accum_block1.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'histComp3' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/histComp3.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'histComp4' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/histComp4.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'Histogram_block2' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/Histogram_block2.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'HistController_block2' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistController_block2.sv:26]
+INFO: [Synth 8-6155] done synthesizing module 'HistController_block2' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistController_block2.sv:26]
+INFO: [Synth 8-6157] synthesizing module 'HistCore_block2' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistCore_block2.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'HistCore_block2' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistCore_block2.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'Histogram_block2' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/Histogram_block2.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'hist_accum_block2' [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/hist_accum_block2.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'hist_accum_block2' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/hist_accum_block2.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'histComp4' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/histComp4.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'HDLHistogram' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram.sv:45]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1316]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1328]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1350]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1362]
+WARNING: [Synth 8-11581] system function call 'fscanf' not supported [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1384]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1396]
+INFO: [Synth 8-6155] done synthesizing module 'HDLHistogram_tb' (0#1) [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:30]
+WARNING: [Synth 8-6014] Unused sequential element histFSM_histState_not_empty_reg was removed.  [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistController.sv:100]
+WARNING: [Synth 8-6014] Unused sequential element histFSM_histState_not_empty_reg was removed.  [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistController_block.sv:100]
+WARNING: [Synth 8-6014] Unused sequential element histFSM_histState_not_empty_reg was removed.  [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistController_block1.sv:100]
+WARNING: [Synth 8-6014] Unused sequential element histFSM_histState_not_empty_reg was removed.  [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistController_block2.sv:100]
+WARNING: [Synth 8-6014] Unused sequential element Video_partition_out2_addr_reg was removed.  [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:273]
+WARNING: [Synth 8-6014] Unused sequential element accum_hist_testFailure_reg was removed.  [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1325]
+WARNING: [Synth 8-6014] Unused sequential element validOut_testFailure_reg was removed.  [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1359]
+WARNING: [Synth 8-6014] Unused sequential element readDone_testFailure_reg was removed.  [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:1393]
+WARNING: [Synth 8-3848] Net reset in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:33]
+WARNING: [Synth 8-3848] Net rawData_pixel[0] in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:196]
+WARNING: [Synth 8-3848] Net rawData_pixel[1] in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:196]
+WARNING: [Synth 8-3848] Net rawData_pixel[2] in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:196]
+WARNING: [Synth 8-3848] Net rawData_pixel[3] in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:196]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl1_hStart in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:187]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl1_hEnd in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:180]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl1_vStart in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:173]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl1_vEnd in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:166]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl1_valid in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:159]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl2_hStart in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:152]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl2_hEnd in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:145]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl2_vStart in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:138]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl2_vEnd in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:131]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl2_valid in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:124]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl3_hStart in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:117]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl3_hEnd in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:110]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl3_vStart in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:103]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl3_vEnd in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:96]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl3_valid in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:89]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl4_hStart in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:82]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl4_hEnd in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:75]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl4_vStart in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:68]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl4_vEnd in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:61]
+WARNING: [Synth 8-3848] Net rawData_ctrl_pctrl4_valid in module/entity HDLHistogram_tb does not have driver. [C:/Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv:54]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 965.961 ; gain = 590.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 965.961 ; gain = 590.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 965.961 ; gain = 590.328
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'histFSM_histState_reg' in module 'HistController'
+INFO: [Synth 8-802] inferred FSM for state register 'histFSM_histState_reg' in module 'HistController_block'
+INFO: [Synth 8-802] inferred FSM for state register 'histFSM_histState_reg' in module 'HistController_block1'
+INFO: [Synth 8-802] inferred FSM for state register 'histFSM_histState_reg' in module 'HistController_block2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+                  iSTATE |                               01 |                               01
+                 iSTATE2 |                               10 |                               10
+                 iSTATE0 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'histFSM_histState_reg' using encoding 'sequential' in module 'HistController'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+                  iSTATE |                               01 |                               01
+                 iSTATE2 |                               10 |                               10
+                 iSTATE0 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'histFSM_histState_reg' using encoding 'sequential' in module 'HistController_block'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+                  iSTATE |                               01 |                               01
+                 iSTATE2 |                               10 |                               10
+                 iSTATE0 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'histFSM_histState_reg' using encoding 'sequential' in module 'HistController_block1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+                  iSTATE |                               01 |                               01
+                 iSTATE2 |                               10 |                               10
+                 iSTATE0 |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'histFSM_histState_reg' using encoding 'sequential' in module 'HistController_block2'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 965.961 ; gain = 590.328
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   20 Bit       Adders := 1     
+	   2 Input   17 Bit       Adders := 5     
+	   2 Input   16 Bit       Adders := 6     
+	   2 Input    8 Bit       Adders := 8     
++---Registers : 
+	               16 Bit    Registers := 12    
+	                8 Bit    Registers := 16    
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 52    
++---RAMs : 
+	               4K Bit	(256 X 16 bit)          RAMs := 4     
++---Muxes : 
+	   2 Input   20 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 20    
+	   2 Input    8 Bit        Muxes := 20    
+	   4 Input    2 Bit        Muxes := 4     
+	   2 Input    2 Bit        Muxes := 16    
+	   2 Input    1 Bit        Muxes := 69    
+	   4 Input    1 Bit        Muxes := 16    
+	   5 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (u_HDLHistogram/u_histComp1/u_Histogram/u_hctNet_inst/FSM_sequential_histFSM_histState_reg[1]) is unused and will be removed from module HDLHistogram_tb.
+WARNING: [Synth 8-3332] Sequential element (u_HDLHistogram/u_histComp1/u_Histogram/u_hctNet_inst/FSM_sequential_histFSM_histState_reg[0]) is unused and will be removed from module HDLHistogram_tb.
+WARNING: [Synth 8-3332] Sequential element (u_HDLHistogram/u_histComp2/u_Histogram/u_hctNet_inst/FSM_sequential_histFSM_histState_reg[1]) is unused and will be removed from module HDLHistogram_tb.
+WARNING: [Synth 8-3332] Sequential element (u_HDLHistogram/u_histComp2/u_Histogram/u_hctNet_inst/FSM_sequential_histFSM_histState_reg[0]) is unused and will be removed from module HDLHistogram_tb.
+WARNING: [Synth 8-3332] Sequential element (u_HDLHistogram/u_histComp3/u_Histogram/u_hctNet_inst/FSM_sequential_histFSM_histState_reg[1]) is unused and will be removed from module HDLHistogram_tb.
+WARNING: [Synth 8-3332] Sequential element (u_HDLHistogram/u_histComp3/u_Histogram/u_hctNet_inst/FSM_sequential_histFSM_histState_reg[0]) is unused and will be removed from module HDLHistogram_tb.
+WARNING: [Synth 8-3332] Sequential element (u_HDLHistogram/u_histComp4/u_Histogram/u_hctNet_inst/FSM_sequential_histFSM_histState_reg[1]) is unused and will be removed from module HDLHistogram_tb.
+WARNING: [Synth 8-3332] Sequential element (u_HDLHistogram/u_histComp4/u_Histogram/u_hctNet_inst/FSM_sequential_histFSM_histState_reg[0]) is unused and will be removed from module HDLHistogram_tb.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:36 . Memory (MB): peak = 1099.773 ; gain = 724.141
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:36 . Memory (MB): peak = 1124.645 ; gain = 749.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:36 . Memory (MB): peak = 1124.645 ; gain = 749.012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:43 . Memory (MB): peak = 1324.465 ; gain = 948.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:43 . Memory (MB): peak = 1324.465 ; gain = 948.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:43 . Memory (MB): peak = 1324.465 ; gain = 948.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:43 . Memory (MB): peak = 1324.465 ; gain = 948.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:43 . Memory (MB): peak = 1324.465 ; gain = 948.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:43 . Memory (MB): peak = 1324.465 ; gain = 948.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:43 . Memory (MB): peak = 1324.465 ; gain = 948.832
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 144 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:43 . Memory (MB): peak = 1324.465 ; gain = 948.832
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:43 . Memory (MB): peak = 1324.465 ; gain = 948.832
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1325.516 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1446.367 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 1507defa
+INFO: [Common 17-83] Releasing license: Synthesis
+68 Infos, 144 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:49 . Memory (MB): peak = 1446.367 ; gain = 1075.957
+INFO: [Common 17-1381] The checkpoint 'C:/Abdullah/Research Project/Vivado/HistogramEqualizationHDLExample/project_1/project_1.runs/synth_1/HDLHistogram_tb.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file HDLHistogram_tb_utilization_synth.rpt -pb HDLHistogram_tb_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun May 25 16:05:06 2025...

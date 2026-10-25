@@ -1,0 +1,19 @@
+Designator,Value / Part Number,Category,Description
+U2,ESP32-WROOM-32,Wireless MCU,Wi-Fi & BLE Dual-Core MCU Module
+U1,AMS1117-3.3,LDO Regulator,+5V to +3.3V 1A Linear Voltage Regulator
+J1,USB_C_Receptacle_USB2.0_16P,Connector,USB Type-C +5V Power Input
+K2,SANYOU_SRD_Form_C,Relay,5V Coil Form-C SPDT Electromechanical Relay
+Q1,Q_NPN_BEC,Transistor,NPN Relay Coil Driver Transistor (IO4)
+D4,1N4007,Diode,Relay Coil Flyback Diode
+D1,5.1V Zener,Diode,USB VBUS 5.1V Zener Clamp Diode
+"D2, D3",LED,Optoelectronics,+3.3V Power Status LED (D2) and Relay Active LED (D3)
+"J2, J3",Conn_01x04,Connector,4-Pin I2C / Digital Sensor Headers
+J4,Screw_Terminal_01x03,Connector,3-Pin Relay Output Screw Terminal
+"SW1, SW2",SW_Push,Switch,Reset (EN) and Boot (IO0) Tactile Pushbuttons
+"R1, R2",5.1k,Resistor,USB-C CC1/CC2 5.1k Pull-Down Resistors
+"R3, R4",10k,Resistor,EN and IO0 Pull-Up Resistors
+"R7, R8",4.7k,Resistor,"I2C Bus Pull-Up Resistors (IO21, IO22)"
+"R5, R6, R9",1k,Resistor,"LED Current Limiters (R5, R6) and Base Resistor (R9)"
+"C1, C4, C6",10uF,Capacitor,Bulk Decoupling MLCC Capacitors
+"C2, C3, C7",100nF,Capacitor,High-Frequency Decoupling Capacitors
+C5,1uF,Capacitor,EN Reset RC Delay Capacitor

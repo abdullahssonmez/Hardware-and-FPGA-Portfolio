@@ -1,0 +1,18 @@
+Designator,Value / Part Number,Category,Description
+J1,USB_C_Receptacle_USB2.0_16P,Connector,USB Type-C 16-Pin Receptacle (+20V VBUS input)
+U1,CH224K,IC - USB PD Sink,Multi-protocol USB PD 3.0 sink controller (configured for 20V)
+U2,TPS54302,IC - Buck Converter,28V 3A Synchronous Step-Down Converter (+5V Rail)
+U4,TPS54302,IC - Buck Converter,28V 3A Synchronous Step-Down Converter (+12V Rail)
+U3,AMS1117-3.3,IC - LDO Regulator,1A Low-Dropout Linear Regulator (+3.3V Rail)
+"L1, L2",10uH,Inductor,SMD Shielded Power Inductors for +5V and +12V Buck stages
+"C1, C3, C7, C8, C10",10uF,Capacitor,Input and LDO decoupling MLCC capacitors
+"C5, C6, C12, C13",22uF,Capacitor,Parallel low-ESR buck output filter MLCC capacitors
+"C2, C4, C9, C11",100nF,Capacitor,High-frequency bypass and BOOT strap capacitors
+"R2, R4",100k,Resistor,"Feedback upper divider resistors (U2, U4)"
+R3,13.3k,Resistor,Feedback lower divider resistor for +5V output (U2)
+R5,5.23k,Resistor,Feedback lower divider resistor for +12V output (U4)
+"R1, R8, R9",1k,Resistor,CFG1 resistor and +5V/+3.3V LED current limiters
+R6,10k,Resistor,CH224K PG status resistor
+R7,4.7k,Resistor,+12V LED current limiting resistor
+"D1, D2, D3, D4",LED,Optoelectronics,"Power rail status indicator LEDs (+20V, +12V, +5V, +3.3V)"
+"J2, J3, J4, J5",Screw_Terminal_01x02,Connector,"2-Pin Output Screw Terminals (+20V, +3.3V, +5V, +12V)"

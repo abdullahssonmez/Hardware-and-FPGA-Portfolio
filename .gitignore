@@ -1,0 +1,35 @@
+# Vivado & FPGA Build Artifacts
+*.jou
+*.log
+*.str
+*.bak
+*.dmp
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+
+# MATLAB & Simulink Temporary Files
+*.slxc
+*.autosave
+*.asv
+*.mex*
+slprj/
+sccprj/
+
+# KiCad Temporary & Backup Files
+*-backups/
+fp-info-cache
+*.lck
+~*
+*.dsn
+*.ses
+_autosave-*
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,32 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/DualPortRAM_generic.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_pkg.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistController.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistController_block.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistController_block1.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistController_block2.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistCore.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistCore_block.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistCore_block1.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HistCore_block2.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/Histogram.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/Histogram_block.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/Histogram_block1.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/Histogram_block2.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/histComp1.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/histComp2.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/histComp3.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/histComp4.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/hist_accum.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/hist_accum_block.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/hist_accum_block1.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/hist_accum_block2.sv" \
+"../../../../../../../../../Users/snmz4/OneDrive/Belgeler/MATLAB/Examples/R2024b/visionhdl/HistogramEqualizationHDLExample/hdlsrc/HistogramEqualizationHDL/HDLHistogram_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
